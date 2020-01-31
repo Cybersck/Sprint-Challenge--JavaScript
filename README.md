@@ -30,13 +30,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    forEach does not create a new array while map does
+
 2. What is the difference between a function and a method?
+
+    a function is global while a method is local to a specific object
 
 3. What is closure?
 
+    a nested function, which allows access to the parent functions parameters and values
+
 4. Describe the four rules of the 'this' keyword.
 
+    the four rules are just a process of elimination to determine what called the function:
+        called by?:
+            1. new
+            2. call(), apply(), bind()
+            3. as a method, obj.function()
+            4. global, in strict mode undefined, else window.function()
+
 5. Why do we need super() in an extended class?
+    it calls the parent constructor with the given parameters so the subclass can inherit its properties
+
 
 ## Project Set up
 
